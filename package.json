@@ -1,0 +1,24 @@
+{
+  "name": "pwa-testing",
+  "version": "1.0.0",
+  "description": "Testing server woker for pwa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HariLuu/pwa-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HariLuu/pwa-testing/issues"
+  },
+  "homepage": "https://github.com/HariLuu/pwa-testing#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
