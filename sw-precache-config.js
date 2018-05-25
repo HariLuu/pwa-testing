@@ -3,13 +3,13 @@
 
 module.exports = {
 	staticFileGlobs: [
-		'src/assets/**.css',
-		'src/assets/*.png',
-		'src/index.html',
-		'src/*.json',
-		'src/**.js',
+		'dist/assets/**.css',
+		'dist/assets/*.png',
+		'dist/index.html',
+		'dist/*.json',
+		'dist/**.js',
 	],
-	stripPrefix: 'src',
+	stripPrefix: 'dist',
 	runtimeCaching: [{
 		urlPattern: /assets\/products\/.*\.(png|jpg)/,
 		handler: 'networkFirst',
